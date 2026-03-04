@@ -1,0 +1,123 @@
+Job started: Wed Mar  4 20:26:43 CET 2026
+=== Starting Final MAS ===
+Loaded QLoRA predictions for 100 claims.
+QLoRA label distribution: {0: 63, 1: 37}
+
+All agents use GPT-4o-mini.
+Advocate is informed by real QLoRA model predictions (two-stage integration).
+Skeptic and Judge use GPT-4o-mini directly.
+
+Loading 100 high-risk claims from: /ceph/home/student.aau.dk/uo02pm/exam_m4/final_assignment/../assignment_2/hitl_green_100.csv
+Loaded 100 claims.
+Estimated cost: ~$0.20 (Advocate + Skeptic + Judge on GPT-4o-mini)
+
+[  1/100] doc_id=9507644 qlora=GREEN -> MAS label=0, confidence=medium
+[  2/100] doc_id=8684208 qlora=NOT GREEN -> MAS label=0, confidence=high
+[  3/100] doc_id=9534814 qlora=GREEN -> MAS label=0, confidence=medium
+[  4/100] doc_id=8792881 qlora=NOT GREEN -> MAS label=0, confidence=high
+[  5/100] doc_id=8953531 qlora=NOT GREEN -> MAS label=0, confidence=high
+[  6/100] doc_id=9096637 qlora=NOT GREEN -> MAS label=0, confidence=high
+[  7/100] doc_id=9647788 qlora=GREEN -> MAS label=0, confidence=high
+[  8/100] doc_id=9853179 qlora=GREEN -> MAS label=0, confidence=high
+[  9/100] doc_id=9446341 qlora=GREEN -> MAS label=0, confidence=high
+[ 10/100] doc_id=8912651 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 11/100] doc_id=9399272 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 12/100] doc_id=8396503 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 13/100] doc_id=9025316 qlora=GREEN -> MAS label=1, confidence=high
+[ 14/100] doc_id=9050744 qlora=GREEN -> MAS label=0, confidence=high
+[ 15/100] doc_id=9200120 qlora=GREEN -> MAS label=0, confidence=high
+[ 16/100] doc_id=9284631 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 17/100] doc_id=8589718 qlora=GREEN -> MAS label=0, confidence=medium
+[ 18/100] doc_id=8650629 qlora=GREEN -> MAS label=0, confidence=medium
+[ 19/100] doc_id=9578600 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 20/100] doc_id=9591444 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 21/100] doc_id=9745308 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 22/100] doc_id=9504969 qlora=GREEN -> MAS label=0, confidence=medium
+[ 23/100] doc_id=9627579 qlora=GREEN -> MAS label=0, confidence=medium
+[ 24/100] doc_id=8945974 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 25/100] doc_id=9570633 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 26/100] doc_id=9657809 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 27/100] doc_id=8729113 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 28/100] doc_id=9175249 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 29/100] doc_id=8395314 qlora=GREEN -> MAS label=0, confidence=high
+[ 30/100] doc_id=8460525 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 31/100] doc_id=9412986 qlora=GREEN -> MAS label=0, confidence=medium
+[ 32/100] doc_id=9498800 qlora=GREEN -> MAS label=1, confidence=high
+[ 33/100] doc_id=8747264 qlora=GREEN -> MAS label=0, confidence=high
+[ 34/100] doc_id=9003068 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 35/100] doc_id=9779617 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 36/100] doc_id=8622011 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 37/100] doc_id=9719181 qlora=GREEN -> MAS label=0, confidence=high
+[ 38/100] doc_id=8392378 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 39/100] doc_id=8662016 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 40/100] doc_id=8822910 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 41/100] doc_id=9200227 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 42/100] doc_id=8816865 qlora=GREEN -> MAS label=0, confidence=medium
+[ 43/100] doc_id=9049689 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 44/100] doc_id=9371959 qlora=GREEN -> MAS label=0, confidence=medium
+[ 45/100] doc_id=9057419 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 46/100] doc_id=8607927 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 47/100] doc_id=9577109 qlora=GREEN -> MAS label=0, confidence=medium
+[ 48/100] doc_id=8864017 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 49/100] doc_id=8602099 qlora=GREEN -> MAS label=0, confidence=medium
+[ 50/100] doc_id=8496815 qlora=GREEN -> MAS label=0, confidence=medium
+[ 51/100] doc_id=8651282 qlora=GREEN -> MAS label=1, confidence=high
+[ 52/100] doc_id=8553640 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 53/100] doc_id=9337879 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 54/100] doc_id=8536377 qlora=GREEN -> MAS label=0, confidence=high
+[ 55/100] doc_id=8647503 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 56/100] doc_id=9086126 qlora=GREEN -> MAS label=0, confidence=medium
+[ 57/100] doc_id=8464594 qlora=GREEN -> MAS label=0, confidence=medium
+[ 58/100] doc_id=9499455 qlora=GREEN -> MAS label=0, confidence=medium
+[ 59/100] doc_id=9112984 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 60/100] doc_id=9506007 qlora=GREEN -> MAS label=1, confidence=high
+[ 61/100] doc_id=9305469 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 62/100] doc_id=8722791 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 63/100] doc_id=8946874 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 64/100] doc_id=9332192 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 65/100] doc_id=9574324 qlora=GREEN -> MAS label=1, confidence=high
+[ 66/100] doc_id=8802119 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 67/100] doc_id=9850756 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 68/100] doc_id=9512363 qlora=GREEN -> MAS label=0, confidence=medium
+[ 69/100] doc_id=9312607 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 70/100] doc_id=9119146 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 71/100] doc_id=9258735 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 72/100] doc_id=8443176 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 73/100] doc_id=9763134 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 74/100] doc_id=9539229 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 75/100] doc_id=9783214 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 76/100] doc_id=9708316 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 77/100] doc_id=8539010 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 78/100] doc_id=9236796 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 79/100] doc_id=8660067 qlora=GREEN -> MAS label=0, confidence=medium
+[ 80/100] doc_id=8387051 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 81/100] doc_id=8513227 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 82/100] doc_id=9108884 qlora=GREEN -> MAS label=1, confidence=high
+[ 83/100] doc_id=8668350 qlora=GREEN -> MAS label=0, confidence=high
+[ 84/100] doc_id=9450132 qlora=GREEN -> MAS label=1, confidence=high
+[ 85/100] doc_id=9697765 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 86/100] doc_id=8972812 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 87/100] doc_id=8511643 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 88/100] doc_id=8591699 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 89/100] doc_id=9529419 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 90/100] doc_id=8846434 qlora=GREEN -> MAS label=0, confidence=high
+[ 91/100] doc_id=9163258 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 92/100] doc_id=8655489 qlora=GREEN -> MAS label=0, confidence=high
+[ 93/100] doc_id=9455726 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 94/100] doc_id=9559235 qlora=GREEN -> MAS label=1, confidence=high
+[ 95/100] doc_id=8490722 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 96/100] doc_id=9028385 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 97/100] doc_id=9639751 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 98/100] doc_id=9619000 qlora=NOT GREEN -> MAS label=0, confidence=high
+[ 99/100] doc_id=9772302 qlora=NOT GREEN -> MAS label=0, confidence=high
+[100/100] doc_id=9135737 qlora=NOT GREEN -> MAS label=0, confidence=high
+
+MAS label distribution:      {0: 92, 1: 8}
+MAS confidence distribution: {'high': 83, 'medium': 17}
+QLoRA vs MAS agreement:      71.0%
+Low-confidence claims (will require HITL): 0/100
+
+Saved raw MAS labels: /ceph/home/student.aau.dk/uo02pm/exam_m4/final_assignment/final_labels_100_raw.csv
+
+Next step: run interactively -> python final_assignment/04_hitl_review.py
+=== Final MAS done ===

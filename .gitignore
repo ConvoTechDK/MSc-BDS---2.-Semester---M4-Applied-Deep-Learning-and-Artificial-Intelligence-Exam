@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+
+# Large binary files (embeddings are reproducible via 01_baseline.py)
+assignment_2/train_emb.npy
+assignment_2/eval_emb.npy
+assignment_2/pool_emb.npy

@@ -1,0 +1,118 @@
+Job started: Wed Mar  4 16:00:28 CET 2026
+=== Starting Final MAS ===
+Models loaded.
+Advocate: GPT-4o-mini with QLoRA-informed domain prompt
+Skeptic + Judge: GPT-4o-mini
+
+Loading 100 high-risk claims from: /ceph/home/student.aau.dk/uo02pm/exam_m4/final_assignment/../assignment_2/hitl_green_100.csv
+Loaded 100 claims.
+Estimated cost: ~$0.30
+
+[  1/100] doc_id=9507644 -> label=0, confidence=medium
+[  2/100] doc_id=8684208 -> label=0, confidence=high
+[  3/100] doc_id=9534814 -> label=1, confidence=high
+[  4/100] doc_id=8792881 -> label=0, confidence=high
+[  5/100] doc_id=8953531 -> label=0, confidence=high
+[  6/100] doc_id=9096637 -> label=0, confidence=high
+[  7/100] doc_id=9647788 -> label=0, confidence=high
+[  8/100] doc_id=9853179 -> label=0, confidence=high
+[  9/100] doc_id=9446341 -> label=1, confidence=high
+[ 10/100] doc_id=8912651 -> label=0, confidence=high
+[ 11/100] doc_id=9399272 -> label=0, confidence=medium
+[ 12/100] doc_id=8396503 -> label=0, confidence=medium
+[ 13/100] doc_id=9025316 -> label=0, confidence=medium
+[ 14/100] doc_id=9050744 -> label=0, confidence=high
+[ 15/100] doc_id=9200120 -> label=0, confidence=high
+[ 16/100] doc_id=9284631 -> label=0, confidence=high
+[ 17/100] doc_id=8589718 -> label=0, confidence=high
+[ 18/100] doc_id=8650629 -> label=0, confidence=medium
+[ 19/100] doc_id=9578600 -> label=0, confidence=high
+[ 20/100] doc_id=9591444 -> label=1, confidence=high
+[ 21/100] doc_id=9745308 -> label=1, confidence=high
+[ 22/100] doc_id=9504969 -> label=0, confidence=medium
+[ 23/100] doc_id=9627579 -> label=1, confidence=high
+[ 24/100] doc_id=8945974 -> label=0, confidence=medium
+[ 25/100] doc_id=9570633 -> label=0, confidence=medium
+[ 26/100] doc_id=9657809 -> label=0, confidence=high
+[ 27/100] doc_id=8729113 -> label=0, confidence=high
+[ 28/100] doc_id=9175249 -> label=0, confidence=high
+[ 29/100] doc_id=8395314 -> label=0, confidence=medium
+[ 30/100] doc_id=8460525 -> label=0, confidence=high
+[ 31/100] doc_id=9412986 -> label=1, confidence=high
+[ 32/100] doc_id=9498800 -> label=1, confidence=high
+[ 33/100] doc_id=8747264 -> label=0, confidence=high
+[ 34/100] doc_id=9003068 -> label=0, confidence=high
+[ 35/100] doc_id=9779617 -> label=1, confidence=high
+[ 36/100] doc_id=8622011 -> label=0, confidence=medium
+[ 37/100] doc_id=9719181 -> label=0, confidence=medium
+[ 38/100] doc_id=8392378 -> label=0, confidence=high
+[ 39/100] doc_id=8662016 -> label=0, confidence=high
+[ 40/100] doc_id=8822910 -> label=0, confidence=medium
+[ 41/100] doc_id=9200227 -> label=1, confidence=high
+[ 42/100] doc_id=8816865 -> label=1, confidence=high
+[ 43/100] doc_id=9049689 -> label=0, confidence=medium
+[ 44/100] doc_id=9371959 -> label=0, confidence=high
+[ 45/100] doc_id=9057419 -> label=0, confidence=medium
+[ 46/100] doc_id=8607927 -> label=0, confidence=medium
+[ 47/100] doc_id=9577109 -> label=0, confidence=medium
+[ 48/100] doc_id=8864017 -> label=1, confidence=high
+[ 49/100] doc_id=8602099 -> label=0, confidence=medium
+[ 50/100] doc_id=8496815 -> label=1, confidence=high
+[ 51/100] doc_id=8651282 -> label=0, confidence=medium
+[ 52/100] doc_id=8553640 -> label=0, confidence=medium
+[ 53/100] doc_id=9337879 -> label=0, confidence=high
+[ 54/100] doc_id=8536377 -> label=0, confidence=medium
+[ 55/100] doc_id=8647503 -> label=1, confidence=high
+[ 56/100] doc_id=9086126 -> label=0, confidence=medium
+[ 57/100] doc_id=8464594 -> label=0, confidence=medium
+[ 58/100] doc_id=9499455 -> label=1, confidence=high
+[ 59/100] doc_id=9112984 -> label=1, confidence=high
+[ 60/100] doc_id=9506007 -> label=1, confidence=high
+[ 61/100] doc_id=9305469 -> label=0, confidence=high
+[ 62/100] doc_id=8722791 -> label=1, confidence=high
+[ 63/100] doc_id=8946874 -> label=0, confidence=high
+[ 64/100] doc_id=9332192 -> label=0, confidence=medium
+[ 65/100] doc_id=9574324 -> label=1, confidence=high
+[ 66/100] doc_id=8802119 -> label=0, confidence=high
+[ 67/100] doc_id=9850756 -> label=1, confidence=high
+[ 68/100] doc_id=9512363 -> label=0, confidence=medium
+[ 69/100] doc_id=9312607 -> label=0, confidence=high
+[ 70/100] doc_id=9119146 -> label=0, confidence=medium
+[ 71/100] doc_id=9258735 -> label=0, confidence=high
+[ 72/100] doc_id=8443176 -> label=0, confidence=high
+[ 73/100] doc_id=9763134 -> label=0, confidence=high
+[ 74/100] doc_id=9539229 -> label=0, confidence=high
+[ 75/100] doc_id=9783214 -> label=1, confidence=high
+[ 76/100] doc_id=9708316 -> label=0, confidence=high
+[ 77/100] doc_id=8539010 -> label=0, confidence=high
+[ 78/100] doc_id=9236796 -> label=1, confidence=high
+[ 79/100] doc_id=8660067 -> label=1, confidence=high
+[ 80/100] doc_id=8387051 -> label=0, confidence=high
+[ 81/100] doc_id=8513227 -> label=0, confidence=high
+[ 82/100] doc_id=9108884 -> label=1, confidence=high
+[ 83/100] doc_id=8668350 -> label=1, confidence=high
+[ 84/100] doc_id=9450132 -> label=1, confidence=high
+[ 85/100] doc_id=9697765 -> label=0, confidence=high
+[ 86/100] doc_id=8972812 -> label=0, confidence=high
+[ 87/100] doc_id=8511643 -> label=0, confidence=medium
+[ 88/100] doc_id=8591699 -> label=0, confidence=medium
+[ 89/100] doc_id=9529419 -> label=0, confidence=medium
+[ 90/100] doc_id=8846434 -> label=1, confidence=high
+[ 91/100] doc_id=9163258 -> label=0, confidence=high
+[ 92/100] doc_id=8655489 -> label=0, confidence=high
+[ 93/100] doc_id=9455726 -> label=0, confidence=medium
+[ 94/100] doc_id=9559235 -> label=1, confidence=high
+[ 95/100] doc_id=8490722 -> label=0, confidence=medium
+[ 96/100] doc_id=9028385 -> label=0, confidence=high
+[ 97/100] doc_id=9639751 -> label=0, confidence=high
+[ 98/100] doc_id=9619000 -> label=0, confidence=high
+[ 99/100] doc_id=9772302 -> label=0, confidence=high
+[100/100] doc_id=9135737 -> label=1, confidence=high
+
+Exception-based HITL: 0/100 claims need human review
+Final label distribution: {0: 72, 1: 28}
+MAS confidence distribution: {'high': 70, 'medium': 30}
+Claims requiring human intervention: 0/100
+
+Saved: /ceph/home/student.aau.dk/uo02pm/exam_m4/final_assignment/final_labels_100.csv
+=== Final MAS done ===
