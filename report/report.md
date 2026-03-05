@@ -48,6 +48,14 @@ The results show a non-monotonic progression: Assignment 3 (MAS) marginally outp
 - Assignment 3 model: https://huggingface.co/Peter512/patentsbert-green-a3
 - Final model: https://huggingface.co/Peter512/patentsbert-green-final
 
+## GitHub Repository
+
+- https://github.com/ConvoTechDK/MSc-BDS---2.-Semester---M4-Applied-Deep-Learning-and-Artificial-Intelligence-Exam
+
 ## Video Demo
 
-[ADD VIDEO LINK BEFORE SUBMISSION]
+- Video URL: https://aaudk-my.sharepoint.com/:v:/g/personal/uo02pm_student_aau_dk/IQBKX_oWIFDaQ7D6pkBTrOzyAbOkEcWXWvf-iPgF3nO59So?e=al88kl&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+OR:
+
+- https://drive.google.com/file/d/1fiGB6DV7pdDACXYH3dsz1rwMGsliNIt8/view?usp=sharing

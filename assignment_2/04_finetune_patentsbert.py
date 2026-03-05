@@ -39,10 +39,10 @@ df_gold = pd.read_csv(GOLD_CSV)
 
 # Merge gold labels: gold overrides silver for the 100 HITL items
 df_main = df_main.copy()
-df_main['label'] = df_main['is_green_silver']
+df_main['is_green_gold'] = df_main['is_green_silver']
 
 gold_lookup = dict(zip(df_gold['doc_id'].astype(str), df_gold['is_green_human'].astype(int)))
-df_main['label'] = df_main.apply(
+df_main['is_green_gold'] = df_main.apply(
     lambda row: gold_lookup.get(str(row['doc_id']), int(row['is_green_silver'])),
     axis=1
 )
@@ -52,20 +52,20 @@ eval_df  = df_main[df_main['split'] == 'eval_silver'].reset_index(drop=True)
 
 # Gold_100: the 100 HITL-labeled claims with human labels
 gold_df = df_gold[['doc_id', 'text', 'is_green_human']].copy()
-gold_df = gold_df.rename(columns={'is_green_human': 'label'})
-gold_df['label'] = gold_df['label'].astype(int)
+gold_df = gold_df.rename(columns={'is_green_human': 'is_green_gold'})
+gold_df['is_green_gold'] = gold_df['is_green_gold'].astype(int)
 
 # Add the 100 gold items to training (they come from pool_unlabeled, not train_silver)
-gold_train = gold_df[['text', 'label']].copy()
+gold_train = gold_df[['text', 'is_green_gold']].copy()
 train_df = pd.concat([train_df, gold_train], ignore_index=True)
 
 print(f"train (silver + gold_100): {len(train_df)} rows")
 print(f"eval_silver:  {len(eval_df)} rows")
 print(f"gold_100:     {len(gold_df)} rows")
-print(f"\nLabel distribution (train): {train_df['label'].value_counts().to_dict()}")
+print(f"\nLabel distribution (train): {train_df['is_green_gold'].value_counts().to_dict()}")
 
 # Build HuggingFace datasets
-def make_hf_dataset(df_src, label_col='label'):
+def make_hf_dataset(df_src, label_col='is_green_gold'):
     return Dataset.from_dict({
         'text':   df_src['text'].tolist(),
         'labels': df_src[label_col].astype(int).tolist(),
